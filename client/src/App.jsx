@@ -4,18 +4,12 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <Router>
-      <nav>
-        <ul>
-          <li><Link to="/">About Me</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/skills">Skills</Link></li>
-          <li><Link to="/contact">Contact Me</Link></li>
-        </ul>
-      </nav>
+      <NavBar/>
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
