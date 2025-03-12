@@ -1,23 +1,27 @@
 {
   "name": "portfolio",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "npx vite",
+    "client-dev": "npx vite",
+    "server-dev": "nodemon server/index.js",
     "build": "npx vite build",
+    "start": "npx vite build && node server",
     "lint": "eslint .",
     "preview": "npx vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.0.13",
+    "cors": "^2.8.5",
+    "daisyui": "^5.0.2",
     "express": "^4.21.2",
+    "nodemon": "^3.1.9",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0",
+    "tailwindcss": "^4.0.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
