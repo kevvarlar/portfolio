@@ -4,7 +4,7 @@ import resume from '../assets/resume.pdf';
 const NavBar = () => {
 
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-neutral text-neutral-content shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <button tabIndex={0} aria-label="Portfolio Navigation" className="btn btn-ghost lg:hidden">
