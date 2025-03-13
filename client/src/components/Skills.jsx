@@ -21,10 +21,10 @@ import reactQuery from '../assets/react_query.png';
 const Skills = () => {
   const languages = [
     {language: 'JS', photo: js, url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
-    {language: 'NoSQL', photo: nosql, url: 'https://en.wikipedia.org/wiki/NoSQL'},
-    {language: 'SQL', photo: sql, url: 'https://en.wikipedia.org/wiki/SQL'},
     {language: 'HTML', photo: html, url: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
     {language: 'CSS', photo: css, url: 'https://developer.mozilla.org/en-US/docs/Web/CSS'},
+    {language: 'NoSQL', photo: nosql, url: 'https://en.wikipedia.org/wiki/NoSQL'},
+    {language: 'SQL', photo: sql, url: 'https://en.wikipedia.org/wiki/SQL'},
     {language: 'Python', photo: python, url: 'https://docs.python.org/3/'},
     {language: 'Java', photo: java, url: 'https://dev.java/'}
   ];
@@ -38,7 +38,7 @@ const Skills = () => {
     {techStack: 'DaisyUI', photo: daisyui, url: 'https://daisyui.com/'},
     {techStack: 'Redux', photo: redux, url: 'https://redux.js.org/'},
     {techStack: 'Vite', photo: vite, url: 'https://vitejs.dev/'},
-    {techStack: 'NextJS', photo: NextJS, url: 'https://nextjs.org/'},
+    {techStack: 'NextJS', photo: nextjs, url: 'https://nextjs.org/'},
     {techStack: 'React Query', photo: reactQuery, url: 'https://react-query.tanstack.com/'}
   ];
   return (
