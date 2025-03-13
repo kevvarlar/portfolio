@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Projects() {
+const Projects = () => {
   return (
     <section>
       <h1>Projects</h1>

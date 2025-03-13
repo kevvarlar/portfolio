@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactMe() {
+const ContactMe = () => {
   return (
     <section>
       <h1>Contact Me</h1>

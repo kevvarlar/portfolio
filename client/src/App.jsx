@@ -17,7 +17,6 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<ContactMe />} />
         </Routes>
-        <div className="mt-10"/>
         <Footer/>
       </Router>
     </div>
