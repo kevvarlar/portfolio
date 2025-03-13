@@ -2,7 +2,7 @@ import React from 'react'; // Ensure you have DaisyUI installed and imported
 import graduationPhoto from '../assets/graduation_photo.jpeg';
 function AboutMe() {
   return (
-    <section className="card lg:card-side bg-base-100 shadow-xl min-h-100">
+    <section className="card lg:card-side bg-base-100 shadow-xl min-h-100 overflow-y-auto">
       <figure className="card-image w-full">
         <img src={graduationPhoto} alt="About Me" />
       </figure>

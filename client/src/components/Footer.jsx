@@ -5,8 +5,8 @@ import linkedIn from '../assets/linked_in.png';
 import email from '../assets/email.png';
 const Footer = () => {
   return (
-    <footer className="footer sm:flex sm:justify-between bg-neutral text-neutral-content items-center p-4">
-      <aside className="flex items-center space-x-2">
+    <footer className="footer flex flex-col sm:flex-row justify-between bg-neutral text-neutral-content items-center p-4">
+      <aside className="flex items-center space-x-2 mb-4 sm:mb-0 sm:space-x-0">
         <img className="w-8 h-8" src={basketball} alt="basketball" />
         <p className="text-lg">Contact Info</p>
       </aside>
