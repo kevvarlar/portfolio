@@ -17,6 +17,14 @@ import redux from '../assets/redux.png';
 import vite from '../assets/vite.png';
 import nextjs from '../assets/nextjs.png';
 import reactQuery from '../assets/react_query.png';
+import express from '../assets/express.png';
+import node from '../assets/node.png';
+import mongodb from '../assets/mongodb.png';
+import mongoose from '../assets/mongoose.png';
+import mysql from '../assets/mysql.png';
+import sqlite from '../assets/sqlite.png';
+import sequelize from '../assets/sequelize.png';
+import firebase from '../assets/firebase.png';
 
 const Skills = () => {
   const languages = [
@@ -41,8 +49,20 @@ const Skills = () => {
     {techStack: 'NextJS', photo: nextjs, url: 'https://nextjs.org/'},
     {techStack: 'React Query', photo: reactQuery, url: 'https://react-query.tanstack.com/'}
   ];
+
+  const backend = [
+    {techStack: 'ExpressJS', photo: express, url: 'https://expressjs.com/'},
+    {techStack: 'NodeJS', photo: node, url: 'https://nodejs.org/'},
+    {techStack: 'MongoDB', photo: mongodb, url: 'https://www.mongodb.com/'},
+    {techStack: 'Mongoose', photo: mongoose, url: 'https://mongoosejs.com/'},
+    {techStack: 'MySQL', photo: mysql, url: 'https://www.mysql.com/'},
+    {techStack: 'SQLite', photo: sqlite, url: 'https://www.sqlite.org/'},
+    {techStack: 'Sequelize', photo: sequelize, url: 'https://sequelize.org/'},
+    {techStack: 'Firebase', photo: firebase, url: 'https://firebase.google.com/'}
+  ]
+
   return (
-    <section className="overflow-y-auto min-h-96">
+    <section className="overflow-y-auto min-h-96 ml-4">
       <h1 className="text-4xl font-bold">Languages</h1>
       <div className="max-w-screen flex flex-wrap h-40 overflow-y-auto mt-10">
         {languages.map((language) => <TechStack techstack={language} />)}
@@ -51,6 +71,11 @@ const Skills = () => {
       <h1 className="text-4xl font-bold">Frontend Tech Stack</h1>
       <div className="max-w-screen flex flex-wrap h-80 overflow-y-auto mt-10">
         {frontend.map((techstack) => <TechStack techstack={techstack} />)}
+      </div>
+      <div className="divider"/>
+      <h1 className="text-4xl font-bold">Backend Tech Stack</h1>
+      <div className="max-w-screen flex flex-wrap h-80 overflow-y-auto mt-10">
+        {backend.map((techstack) => <TechStack techstack={techstack} />)}
       </div>
     </section>
   )
