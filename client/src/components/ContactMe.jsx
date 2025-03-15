@@ -60,7 +60,7 @@ const ContactMe = () => {
         <input name="email" type="email" className="input" placeholder="email@example.com" />
         <label className="fieldset-label">Message</label>
         <textarea name="message" minLength="50" type="text" className="textarea min-h-36" placeholder="Hello I am John Doe, I was hoping we could connect and talk about projects we could work on together or about how your job search has been going" />
-        <button id="emailSubmit" type="submit" className="btn btn-neutral mt-4">Send Email</button>
+        <button id="emailSubmit" type="submit" className="btn btn-primary mt-4">Send Email</button>
       </form>
     </section>
   );

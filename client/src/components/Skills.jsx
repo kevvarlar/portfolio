@@ -25,6 +25,7 @@ import mysql from '../assets/mysql.png';
 import sqlite from '../assets/sqlite.png';
 import sequelize from '../assets/sequelize.png';
 import firebase from '../assets/firebase.png';
+import nodemailer from '../assets/nodemailer.png';
 
 const Skills = () => {
   const languages = [
@@ -58,7 +59,8 @@ const Skills = () => {
     {techStack: 'MySQL', photo: mysql, url: 'https://www.mysql.com/'},
     {techStack: 'SQLite', photo: sqlite, url: 'https://www.sqlite.org/'},
     {techStack: 'Sequelize', photo: sequelize, url: 'https://sequelize.org/'},
-    {techStack: 'Firebase', photo: firebase, url: 'https://firebase.google.com/'}
+    {techStack: 'Firebase', photo: firebase, url: 'https://firebase.google.com/'},
+    {techStack: 'Nodemailer', photo: nodemailer, url: 'https://nodemailer.com/'}
   ]
 
   return (
