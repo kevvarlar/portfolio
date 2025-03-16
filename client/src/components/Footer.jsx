@@ -1,5 +1,5 @@
 import React from 'react';
-import basketball from '../../../public/basketball_image.png';
+import basketball from '../assets/basketball_image.png';
 import socialMedia from './socialMedia.jsx';
 const Footer = () => {
   return (
