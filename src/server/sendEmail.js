@@ -1,5 +1,6 @@
-const nodemailer = require('nodemailer');
-require('dotenv').config();
+import nodemailer from 'nodemailer';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const email = process.env.EMAIL;
 const password = process.env.PASSWORD;
@@ -15,4 +16,4 @@ const sendEmail = (subject, text) => {
   return transporter.sendMail(mailOptions)
 }
 
-module.exports = sendEmail;
+export default sendEmail;
