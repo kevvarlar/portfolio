@@ -1,10 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/server/main.js -w src/server",
     "build": "npx vite build",
-    "start": "NODE_ENV=production node src/server/main.js",
+    "start": "npx vite build && NODE_ENV=production node src/server/main.js",
     "lint": "eslint .",
     "preview": "npx vite preview"
   },
