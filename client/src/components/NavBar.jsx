@@ -28,7 +28,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href={resume} className="btn">Resume</a>
+        <a href={resume} className="btn btn-base-100" target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
-import fec from '../assets/fec.png';
-import sdc from '../assets/sdc.png';
+import fec from '../../assets/fec.png';
+import sdc from '../../assets/sdc.png';
+
 const Projects = () => {
   const projects = [
     {

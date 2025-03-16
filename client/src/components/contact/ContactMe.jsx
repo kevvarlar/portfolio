@@ -55,9 +55,9 @@ const ContactMe = () => {
       <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
       <form id="email-form" onSubmit={handleSubmit} className="fieldset w-xs bg-base-200 border border-base-300 p-4 rounded-box">
         <label className="fieldset-label">Name</label>
-        <input name="name" type="text" className="input" placeholder="John Doe" />
+        <input autoComplete="name" name="name" type="text" className="input" placeholder="John Doe" />
         <label className="fieldset-label">Your Email</label>
-        <input name="email" type="email" className="input" placeholder="email@example.com" />
+        <input autoComplete="email" name="email" type="email" className="input" placeholder="email@example.com" />
         <label className="fieldset-label">Message</label>
         <textarea name="message" minLength="50" type="text" className="textarea min-h-36" placeholder="Hello I am John Doe, I was hoping we could connect and talk about projects we could work on together or about how your job search has been going" />
         <button id="emailSubmit" type="submit" className="btn btn-primary mt-4">Send Email</button>
