@@ -1,8 +1,8 @@
 import express from 'express' ;
-import ViteExpress from "vite-express";
 import sendEmail from './sendEmail.js';
+import ViteExpress from 'vite-express';
+import 'dotenv/config';
 const app = express();
-const port = 3000;
 
 app.use(express.json());
 
@@ -25,8 +25,8 @@ app.post('/api/email', (req, res) => {
     })
 });
 
-ViteExpress.listen(app, port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+ViteExpress.listen(app, process.env.PORT, () => {
+  console.log(`Server is running on http://localhost:${process.env.PORT}`);
 });
 
 export default app;
