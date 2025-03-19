@@ -8,7 +8,7 @@ const Footer = () => {
         <img className="w-8 h-8" src={basketball} alt="basketball" />
         <p className="text-lg">Social Media Links</p>
       </aside>
-      <nav className="flex space-x-4">
+      <nav className="flex space-x-4 pr-5">
         {socialMedia.map((media, index) => {
           return (
             <a key={index} href={media.url} target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-transform duration-500 ease-in-out">

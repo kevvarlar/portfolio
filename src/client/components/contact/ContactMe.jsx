@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
@@ -30,7 +30,7 @@ const ContactMe = () => {
         document.getElementById('emailSubmit').innerText = 'Email Sent';
         document.getElementById('email-form').reset();
       })
-      .catch((err) => {
+      .catch(() => {
         Swal.fire({
           title: 'Sorry!',
           buttonsStyling: 'false',
